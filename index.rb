@@ -18,7 +18,7 @@ class DoublyLinkedList
   end
 
   def empty?
-    @size == 0
+    @size != 0
   end
 
   def append(value)
